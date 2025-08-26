@@ -1,0 +1,11 @@
+Symbol,Address,Type,Physical,Normal State,Description
+PB_Open,I:1/0,DI,NO PB,Open,Open pushbutton
+PB_Close,I:1/1,DI,NO PB,Open,Close pushbutton
+PB_Stop,I:1/2,DI,NC PB,Closed,Stop pushbutton (maintained)
+LS_Up,I:1/3,DI,NC Limit,Closed,True whenever the door is not fully open; false at fully open
+LS_Down,I:1/4,DI,NC Limit,Closed,True when the door is fukky open, false anywhere else
+Mtr_Up,O:2/0,DO,Motor,–,Motor up 
+Mtr_Down,O:2/1,DO,Motor,–,Motor down 
+Lamp_Open,O:2/3,DO,Pilot Lamp,–,Open indicator lamp
+Lamp_Shut,O:2/4,DO,Pilot Lamp,–,Shut indicator lamp
+
